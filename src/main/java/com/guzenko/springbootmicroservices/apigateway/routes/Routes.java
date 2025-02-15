@@ -29,4 +29,5 @@ public class Routes {
                 .route(RequestPredicates.path("/api/inventory"), HandlerFunctions.http("http://localhost:8082"))
                 .build();
     }
+
 }
